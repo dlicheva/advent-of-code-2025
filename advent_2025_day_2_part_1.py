@@ -35,7 +35,7 @@ def test_answer():
     assert getSumInvalidIds(ranges) == 1227775554
 
 with open('day-2.txt', 'r', encoding="utf-8") as f:
-    ranges = f.readlines()  # Returns a list of lines
+    ranges = f.readlines()
 
 input = ranges[0]
 sum = getSumInvalidIds(input)
